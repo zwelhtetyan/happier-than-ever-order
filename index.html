@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Time</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="container">
+      <!--title img-->
+      <div class="row title">
+        <div class="col-md-8 offset-md-2">
+          <img src="img/happier than ever title.png" alt="" width="100%" class="title-img">
+        </div>
+      </div>
+      <!--title img-->
+      <!--album and billie-->
+        <div class="row album-and-billie">
+          <div class="col-6 col-md-4 offset-md-2 d-flex align-items-center justify-content-center">
+            <img src="img/billie.png" alt="" width="60%" class="billie">
+          </div>
+          <div class="col-6 col-md-4 d-flex align-items-center justify-content-center">
+            <img src="img/billie album.png" alt="" width="80%" class="album">
+          </div>
+        </div>
+      <!--album and billie-->
+      <!--label-->
+        <div class="label d-flex align-items-center justify-content-center" style="height: 40px;">
+          <div id="typed-string">
+            <p><em>Happier Than Ever By</em> <span class="text-success fw-bold" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif!important;">Billie Eilish</span></p>
+          </div>
+          <p class="typeLabel text-center fs-1 m-0 p-0" style="color: #d3ba9f !important;"></p>
+        </div>
+      <!--label-->
+      <!--order section-->
+      <div class="order-container mt-3">
+        <button class="btn btn-success order">Order Now !</button>
+        <p class="m-0 ms-3 fs-4" style="color: gold;">$ 20.00</p>
+      </div>
+      <!--order section-->
+      <!--cancel section-->
+      <div class="cancel-container flex-column align-items-center justify-content-center mt-3">
+        <p class="m-0 text-white you-order" style="letter-spacing: 2px; word-spacing: 3px;">You've been ordered this item.</p>
+        <p class="m-0 text-muted you-can-cancel" style="font-size: 14px !important;">You can cancel within 24 hours.</p>
+        <div class="cancelButton-and-timer">
+          <button class="btn btn-success cancel">Cancel</button>
+          <p class="fs-4 ms-3 m-0 timer" style="color: gold;"></p>
+        </div>
+      </div>
+      <!--cancel section-->
+      <!--order alert-->
+      <div class="order-alert rounded-1 d-flex align-items-center justify-content-center" style="background-color: #d3ba9f;">
+        <p class="m-0 p-3">Thanks for ordering this item</p>
+      </div>
+      <!--order alert-->
+      <!--cancel alert-->
+      <div class="cancel-alert rounded-1 d-flex align-items-center justify-content-center" style="background-color: #d3ba9f;">
+        <p class="m-0 p-3">You canceled this item</p>
+      </div>
+      <!--cancel alert-->
+
+    </div>
+  </div>
+
+
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/typejs/typed.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
